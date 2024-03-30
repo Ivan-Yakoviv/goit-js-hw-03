@@ -1,7 +1,7 @@
 function makeArray(firstArray, secondArray, maxLength) {
     const array = [];
     const newArray = firstArray.concat(secondArray); 
-    for (i = 0; i < maxLength; i++) {
+    for (let i = 0; i < maxLength; i++) {
         array.push(newArray[i]);
     }
     return array;
